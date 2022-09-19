@@ -1,0 +1,93 @@
+
+header {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+
+}    
+
+p{
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(223, 235, 227);
+}
+
+h3{
+    text-align: center;
+
+}
+
+#menu-h{
+    font-size:larger;
+    font-family: American Typewriter, serif;
+    list-style: none;
+    padding: 0;
+    background-color:rgba(11, 78, 104, 0.699) ;
+    text-align: center;
+    position: sticky;    
+}  
+
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+ color: rgb(234, 235, 232);
+ padding: 10px;
+ text-decoration: none;
+ display: inline-block;
+ transition: width 1s;
+
+}
+#menu-h li a:hover{
+ background-color: rgb(31, 28, 53);
+transition: transform 0.2s;
+width: 300px;
+}
+
+ div.quadrado{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 420px;
+    height: 315px;
+    bottom: auto;
+    background-position: center top;
+    size: 100%;
+    }
+div#q1{
+    background-image: url(foto1.png);
+
+    
+}
+div#q2 {
+    background-image: url(foto2.png);
+}
+div#q3 {
+    background-image: url(foto3.png);
+}
+
+.btn{
+    padding: 10px 8px;
+    width: 150px;
+    color: white;
+    background-color: rgb(63, 32, 173);
+    border: 1px solid rgb(47, 7, 110);
+    border-radius: 5px ;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 42%;
+    }
+
+.btn a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+    
